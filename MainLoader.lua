@@ -397,6 +397,7 @@ if game.Players.LocalPlayer.Name == "mayconOM12" then
 game.Players.LocalPlayer:Kick("Foi Bom Vida Mais Scams N Podem Dura rs")
 end
 
+if not game.CoreGui:FindFirstChild("ThunderToggleUI") then
 local ThunderScreen = Instance.new("ScreenGui")
 local ThunderToggleUI = Instance.new("TextButton")
 local ThunderCornerUI = Instance.new("UICorner")
@@ -420,6 +421,8 @@ ThunderToggleUI.Draggable = true
 ThunderToggleUI.MouseButton1Click:Connect(function()
     setclipboard("https://discord.gg/TdStSqtM8p")
 end)
+end
+
 
 --anti afk kick
 local vu = game:GetService("VirtualUser")
