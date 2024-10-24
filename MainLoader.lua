@@ -1,10 +1,3 @@
-game:GetService("UserInputService").InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.LeftControl then
-        if game:GetService("CoreGui"):FindFirstChild("Omg Hub| "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name) then
-            game:GetService("CoreGui"):FindFirstChild("Omg Hub | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name).Enabled = not game:GetService("CoreGui"):FindFirstChild("Muimi Hub | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name).Enabled
-        end
-    end
-end)
 if game.PlaceId == 10598963932 then
     print ("Cat Piece")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Cat%20piece"))()
@@ -243,13 +236,7 @@ elseif game.PlaceId == 8534845015  then
 elseif game.PlaceId == 15552367548 then
     print ("Sakura Stand")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Sakura%20Stand"))()
-elseif game.PlaceId == 11445923563 then
-    print ("One Fruit Simulator")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/One%20Fruit%20Simulator"))()
-elseif game.PlaceId == 13155198714 then
-    print ("One Fruit Simulator")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/One%20Fruit%20Simulator"))()
-elseif game.PlaceId == 14862674911 then
+elseif game.GameId == 4069560710 then
     print ("One Fruit Simulator")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/One%20Fruit%20Simulator"))()
 elseif game.PlaceId == 14561998168 then
@@ -421,7 +408,6 @@ ThunderToggleUI.MouseButton1Click:Connect(function()
     setclipboard("https://discord.gg/TdStSqtM8p")
 end)
 end
-
 
 --anti afk kick
 local vu = game:GetService("VirtualUser")
