@@ -41,9 +41,6 @@ elseif game.PlaceId == 14839995292 or game.PlaceId == 14982280667 then
 elseif game.PlaceId == 10912405603 or game.PlaceId == 15076215032 then
     print ("Clover Fucked")
     game.Players.LocalPlayer:Kick("Use In Main Game Or Dungeon Please")
-elseif game.PlaceId == 16146832113 or game.PlaceId == 16277809958 then
-    print ("Suck My dick Anime Vanguards")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/AnimeVanguard"))()
 elseif game.PlaceId == 18901165922 then
     print ("Pets will suck me")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Pets%20Go"))()
@@ -386,7 +383,6 @@ if game.Players.LocalPlayer.Name == "mayconOM12" then
 game.Players.LocalPlayer:Kick("Foi Bom Vida Mais Scams N Podem Dura rs")
 end
 
-if not game.CoreGui:FindFirstChild("ThunderToggleUI") then
 local ThunderScreen = Instance.new("ScreenGui")
 local ThunderToggleUI = Instance.new("TextButton")
 local ThunderCornerUI = Instance.new("UICorner")
@@ -410,7 +406,6 @@ ThunderToggleUI.Draggable = true
 ThunderToggleUI.MouseButton1Click:Connect(function()
     setclipboard("https://discord.gg/TdStSqtM8p")
 end)
-end
 
 --anti afk kick
 local vu = game:GetService("VirtualUser")
