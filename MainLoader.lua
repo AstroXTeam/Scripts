@@ -367,6 +367,8 @@ elseif game.PlaceId == 11520107397 or game.PlaceId == 6403373529 or game.PlaceId
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Anime%20Dimensions"))()
 end
 
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Omgshit/Scripts/main/Lol.lua')))()
+
 if game.Players.LocalPlayer.Name == "xxgamexx_gamebr" then
 game.Players.LocalPlayer:Kick("Foi Bom Vida Mais Scams N Podem Dura rs")
 end
