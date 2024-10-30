@@ -367,7 +367,7 @@ elseif game.PlaceId == 11520107397 or game.PlaceId == 6403373529 or game.PlaceId
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Anime%20Dimensions"))()
 end
 
-if not game.PlaceId == 16732694052 or game.PlaceId == 7449423635 or game.PlaceId == 18901165922 then
+if not game.PlaceId == 16732694052 or not game.PlaceId == 7449423635 or not game.PlaceId == 18901165922 then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Omgshit/Scripts/main/Lol.lua')))()
 end
 
