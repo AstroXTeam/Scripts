@@ -44,6 +44,9 @@ elseif game.PlaceId == 10912405603 or game.PlaceId == 15076215032 then
 elseif game.PlaceId == 18901165922 then
     print ("Pets will suck me")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Pets%20Go"))()
+elseif game.PlaceId == 16080296014 then
+    print ("Souls Tycoon")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/SoulsTycoon"))()
 elseif game.PlaceId == 16732694052 then
     print ("Fish will suck me")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Fisch"))()
