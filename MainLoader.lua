@@ -1,10 +1,3 @@
-game:GetService("UserInputService").InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.LeftControl then
-        if game:GetService("CoreGui"):FindFirstChild("Omg Hub| "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name) then
-            game:GetService("CoreGui"):FindFirstChild("Omg Hub | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name).Enabled = not game:GetService("CoreGui"):FindFirstChild("Muimi Hub | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name).Enabled
-        end
-    end
-end)
 if game.PlaceId == 10598963932 then
     print ("Cat Piece")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Cat%20piece"))()
@@ -377,8 +370,6 @@ elseif game.PlaceId == 11520107397 or game.PlaceId == 6403373529 or game.PlaceId
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Anime%20Dimensions"))()
 end
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Omgshit/Scripts/main/Lol.lua')))()
-
 if game.Players.LocalPlayer.Name == "xxgamexx_gamebr" then
 game.Players.LocalPlayer:Kick("Foi Bom Vida Mais Scams N Podem Dura rs")
 end
@@ -418,7 +409,6 @@ ThunderToggleUI.MouseButton1Click:Connect(function()
 end)
 end
 
---anti afk kick
 local vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
    vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
