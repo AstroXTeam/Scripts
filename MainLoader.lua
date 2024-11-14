@@ -56,6 +56,9 @@ elseif game.PlaceId == 16732694052 then
 elseif game.PlaceId == 14719763818 then
     print ("A Piece")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/A%20Piece"))()
+elseif game.PlaceId == 16146832113 then
+    print ("Anime Vanguards Suck My Dick")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/AnimeVanguard"))()
 elseif game.PlaceId == 15744137588 then
     print ("Demon Slayer")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/DemonBlade"))()
