@@ -84,7 +84,7 @@ local MythicLib = {
 		}
 	},
 	Info = {
-		Version = "1.0.1"
+		Version = "1.0.1",
 	},
 	Save = {
 		UISize = {460, 340},
