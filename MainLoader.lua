@@ -233,6 +233,9 @@ elseif game.PlaceId == 8069117419 then
 elseif game.PlaceId == 13226518892 then
     print ("King Of battleground")
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/King%20Of%20battleground"))()
+elseif game.PlaceId == 4520749081 or game.PlaceId == 6381829480 or game.PlaceId == 5931540094 or game.PlaceId == 15759515082 then
+    print ("King Legacy EZ ARC HUB")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/KingLegacy"))()
 elseif game.PlaceId == 2753915549 then
     print ("Sea 1")
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Protected_4185646586744272.txt"))()
