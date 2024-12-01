@@ -385,6 +385,9 @@ end
 if game.Players.LocalPlayer.Name == "xxgamexx_gamebr" then
 game.Players.LocalPlayer:Kick("Foi Bom Vida Mais Scams N Podem Dura rs")
 end
+if game.Players.LocalPlayer.Name == "MELIODASMITO77" then
+game.Players.LocalPlayer:Kick("otario")
+end
 if game.Players.LocalPlayer.Name == "Ana_bloxfruit" then
 game.Players.LocalPlayer:Kick("Foi Bom Vida Mais Scams N Podem Dura rs")
 end
