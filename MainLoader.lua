@@ -131,6 +131,9 @@ elseif game.PlaceId == 16524008257 then
 elseif game.PlaceId == 15172019581 then
     print ("Robending Online")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Robending%20Online"))()
+elseif game.PlaceId == 17281418694 then
+    print ("lost souls finalmente release")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/LostSouls"))()
 elseif game.PlaceId == 16733754732 then
     print ("Anime Island")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Anime%20Islands"))()
