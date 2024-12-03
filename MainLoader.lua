@@ -29,6 +29,9 @@ elseif game.PlaceId == 94801184757522 then
 elseif game.PlaceId == 19001778364 or game.PlaceId == 107410502434648 or game.PlaceId == 17083240635 then
     print ("Slayer Online")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/SlayerOnline"))()
+elseif game.PlaceId == 1002229912269336 then
+    print ("Anime Realms") 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/AnimeRealms"))()
 elseif game.PlaceId == 89438510123061 then
     print ("Shadow Is Emergy")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/AnimeShadow"))()
