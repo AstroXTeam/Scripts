@@ -50,9 +50,6 @@ elseif game.PlaceId == 14839995292 or game.PlaceId == 14982280667 then
 elseif game.PlaceId == 10912405603 or game.PlaceId == 15076215032 then
     print ("Clover Fucked")
     game.Players.LocalPlayer:Kick("Use In Main Game Or Dungeon Please")
-elseif game.PlaceId == 16347800591 then
-    print ("Dupe Anime Royale")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/AnimeRoyale"))()
 elseif game.PlaceId == 18901165922 then
     print ("Pets will suck me")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Pets%20Go"))()
