@@ -35,6 +35,9 @@ elseif game.PlaceId == 19001778364 or game.PlaceId == 107410502434648 or game.Pl
 elseif game.PlaceId == 100222912269336 or game.PlaceId == 84188796720288 then
     print ("Anime Realms") 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/AnimeRealms"))()
+elseif game.PlaceId == 9790558424 or game.PlaceId == 11667048136 then
+    print ("Master Ez Gem")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Master%20Pirate"))()
 elseif game.PlaceId == 89438510123061 then
     print ("Shadow Is Emergy")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/AnimeShadow"))()
