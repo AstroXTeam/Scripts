@@ -253,13 +253,13 @@ elseif game.PlaceId == 4520749081 or game.PlaceId == 6381829480 or game.PlaceId 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/KingLegacy"))()
 elseif game.PlaceId == 2753915549 then
     print ("Sea 1")
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Protected_4185646586744272.txt"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Protected_6145278315349838.txt"))()
 elseif game.PlaceId == 4442272183 then
     print ("Sea 2")
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Protected_4185646586744272.txt"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Protected_6145278315349838.txt"))()
 elseif game.PlaceId == 7449423635 then
     print ("Sea 3")
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Protected_4185646586744272.txt"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/Protected_6145278315349838.txt"))()
 elseif game.PlaceId == 8534845015  then
     print ("Sakura Stand")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Sakura%20Stand"))()
