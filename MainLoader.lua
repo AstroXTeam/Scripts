@@ -7,6 +7,9 @@ elseif game.PlaceId == 11448431235 then
 elseif game.PlaceId == 6897167394 then
     print ("Demon Piece")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Demon%20Piece"))()
+elseif game.PlaceId == 76098497356508 then
+    print ("Fit Piece2")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/FitPiece2"))()
 elseif game.PlaceId == 95295765150201 then
     print ("New Rock Fruit")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/RockFruitNew"))()
